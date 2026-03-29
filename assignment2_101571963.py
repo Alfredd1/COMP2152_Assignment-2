@@ -243,6 +243,8 @@ if __name__ == "__main__":
         # Fixed - use or
         if start_port > 1024 or start_port < 1 or end_port > 1024 or end_port < 1:
             raise ValueError("Port must be between 1 and 1024.")
+        if end_port >=start_port: 
+            raise ValueError("End port must be greater than start_port")
     except ValueError as e: 
         print(f"Error: {e}")
     except IndexError as e: 
