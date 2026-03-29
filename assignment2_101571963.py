@@ -76,6 +76,10 @@ class NetworkTool:
 
 # Q1: How does PortScanner reuse code from NetworkTool?
 # TODO: Your 2-4 sentence answer here... (Part 2, Q1)
+# ------- ANSWER ------
+# PortScanner uses Object Oriented Pogramming principles. Through the use of the super keyword, PortScanner gets access 
+# to previously identified fields in the parent class such as the __init__() and __del__().   
+# ---------------------
 
 # TODO: Create the PortScanner child class that inherits from NetworkTool (Step vi)
 # - Constructor: call super().__init__(target), initialize self.scan_results = [], self.lock = threading.Lock()
