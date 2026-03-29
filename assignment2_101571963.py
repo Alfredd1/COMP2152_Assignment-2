@@ -292,6 +292,7 @@ if __name__ == "__main__":
 #   what the ports are doing, whether they are used in another app.
 #   This quickly resolves the problem I encountered when writing the assignment
 #   where I had received mostly closed ports and wasn't sure why I did not have
-#   any open ports anywhere.
+#   any open ports anywhere. It could be using nested if statements side by side 
+#   with the scanning of pings.
 #   ---------------------
 # Diagram: See diagram_studentID.png in the repository root
