@@ -23,6 +23,7 @@ print("os: ", platform.python_version())
 
 # TODO: Create the common_ports dictionary (Step iv)
 # Add a 1-line comment above it explaining what it stores
+# The common_ports dictionary contains ports that are usually used in most machines. 
 common_ports = {
     21: "FTP",
     22: "SSH",
